@@ -1,9 +1,8 @@
-#ifndef __DYNAMICARRAY_H__
-#define __DYNAMICARRAY_H__
+#ifndef __DYNAMYCARRAY_H__
+#define __DYNAMYCARRAY_H__
 
 #define MEMORY_DYNARRAY 16
-typedef unsigned int uint;
-using namespace std;
+#include "Definitions.h"
 
 template <class DATA>
 class DynamicArray
@@ -11,14 +10,15 @@ class DynamicArray
 private: 
 	uint Capacity = 0;
 	uint NumElements = 0;
-	DATA* data = 0;
+	DATA* Data = NULL;
 
 public: 
 	DynamicArray() //CONSTRUCTOR
 	{
-		data = new DATA[MEMORY_DYNARRAY];
+		Data = new DATA[MEMORY_DYNARRAY];
 	}
 
+	//MAX Y MIN!!!!!!!!!
 	DynamicArray(const DynamicArray& AnotherDynArray)// COPY CONSTRUCTOR
 	{
 
@@ -26,15 +26,13 @@ public:
 		{
 			Capacity = MEMORY_DYNARRAY;
 		}
-
 		else
 		{
 			Capacity = AnotherDynArray.Capacity;
 		}
 
-		data = new DATA[Capacity];
-		memcpy(data, AnotherDynArray.data, AnotherDynArray.NumElements*sizeof(DATA)+
-			+);
+		Data = new DATA[Capacity];
+		memcpy(Data, AnotherDynArray.Data, AnotherDynArray.NumElements*sizeof(DATA));
 
 	}
 
@@ -42,7 +40,7 @@ public:
 	{
 		if (data != NULL)
 		{
-			delete[] data;
+			delete[] Data;
 		}
 	}
 
@@ -64,36 +62,28 @@ public:
 	
 	}
 
-	bool Ctr(uint new_capacity) //ASK
-	{
-	}
-
-	uint GetCapacity()
+	uint GetCapacity() const
 	{
 		return Capacity;
 	}
 
-	uint GetSize()
+	uint GetSize() const
 	{
 		return NumElements;
 	}
 
-	bool CheckEmpty() //Check if data is empty
+	bool CheckEmpty() const //Check if data is empty // si la
 	{
-		if (data == 0)
-			return true;
-
-		else
-			return false;
+		return (NumElements == NULL);
+	
 	}
 
-	void Clear
+	void Clear()
 	{
-		data = 0;
 		NumElements = 0;
 	}
 
 
 };
 
-#endif //__DYNAMICARRAY_H__
+#endif //__DYNAMYCARRAY_H__

@@ -1,14 +1,16 @@
-﻿Compilación iniciada a las 04/11/2015 15:55:25.
-     1>Proyecto "d:\Users\javiersc4\documents\visual studio 2013\Projects\DynamicArray\DynamicArray\DynamicArray.vcxproj" en el nodo 2 (Build destinos).
+﻿Compilación iniciada a las 09/11/2015 15:38:23.
+     1>Proyecto "D:\Users\javiersc4\Documents\GitHub\Dynamic-Array\DynamicArray\DynamicArray\DynamicArray.vcxproj" en el nodo 2 (Build destinos).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Main.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt DynamicArray.cpp Main.cpp
          Main.cpp
+         DynamicArray.cpp
+         Generando código...
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"d:\users\javiersc4\documents\visual studio 2013\Projects\DynamicArray\Debug\DynamicArray.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"d:\users\javiersc4\documents\visual studio 2013\Projects\DynamicArray\Debug\DynamicArray.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"d:\users\javiersc4\documents\visual studio 2013\Projects\DynamicArray\Debug\DynamicArray.lib" /MACHINE:X86 Debug\DynamicArray.obj
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Users\javiersc4\Documents\GitHub\Dynamic-Array\DynamicArray\Debug\DynamicArray.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Users\javiersc4\Documents\GitHub\Dynamic-Array\DynamicArray\Debug\DynamicArray.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Users\javiersc4\Documents\GitHub\Dynamic-Array\DynamicArray\Debug\DynamicArray.lib" /MACHINE:X86 Debug\DynamicArray.obj
          Debug\Main.obj
-         DynamicArray.vcxproj -> d:\users\javiersc4\documents\visual studio 2013\Projects\DynamicArray\Debug\DynamicArray.exe
-     1>Compilación del proyecto terminada "d:\Users\javiersc4\documents\visual studio 2013\Projects\DynamicArray\DynamicArray\DynamicArray.vcxproj" (Build destinos).
+         DynamicArray.vcxproj -> D:\Users\javiersc4\Documents\GitHub\Dynamic-Array\DynamicArray\Debug\DynamicArray.exe
+     1>Compilación del proyecto terminada "D:\Users\javiersc4\Documents\GitHub\Dynamic-Array\DynamicArray\DynamicArray\DynamicArray.vcxproj" (Build destinos).
 
 Compilación correcta.
 
-Tiempo transcurrido 00:00:00.87
+Tiempo transcurrido 00:00:01.96
