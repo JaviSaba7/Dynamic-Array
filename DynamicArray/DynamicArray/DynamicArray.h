@@ -52,12 +52,13 @@ public:
 
 		}
 	}*/
-	
+	 
+	//MEMCPY; MEMSET;... STUDY IT
 
 	/*HOMEWORK FOR MONDAY:
 	at, capacity, size, clear, ctr(? ) i empty*/
 	//To do: AT & CTR
-	bool At(uint position, DATA &item) //To do
+	bool At(uint position, DATA &item) //Et diu què hi ha en una posició concreta
 	{
 	
 	}
@@ -72,7 +73,7 @@ public:
 		return NumElements;
 	}
 
-	bool CheckEmpty() const //Check if data is empty // si la
+	bool CheckEmpty() const //Check if NumElements is empty
 	{
 		return (NumElements == NULL);
 	
