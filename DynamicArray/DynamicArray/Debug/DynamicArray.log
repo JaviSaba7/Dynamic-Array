@@ -1,4 +1,4 @@
-﻿Compilación iniciada a las 09/11/2015 16:06:27.
+﻿Compilación iniciada a las 11/11/2015 16:37:43.
      1>Proyecto "D:\Users\javiersc4\Documents\GitHub\Dynamic-Array\DynamicArray\DynamicArray\DynamicArray.vcxproj" en el nodo 2 (Build destinos).
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt DynamicArray.cpp
@@ -11,4 +11,4 @@
 
 Compilación correcta.
 
-Tiempo transcurrido 00:00:01.41
+Tiempo transcurrido 00:00:01.34

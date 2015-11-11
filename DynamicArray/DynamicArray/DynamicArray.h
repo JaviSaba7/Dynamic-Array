@@ -1,5 +1,5 @@
-#ifndef __DYNAMYCARRAY_H__
-#define __DYNAMYCARRAY_H__
+#ifndef __DYNAMICARRAY_H__
+#define __DYNAMICARRAY_H__
 
 #define MEMORY_DYNARRAY 16
 #include "Definitions.h"
@@ -44,23 +44,30 @@ public:
 		}
 	}
 
-	//Per fer
-	/*void PushBack(const DATA& AnotherDynArray)
+	void PushBack(const DATA& Item)
 	{
-		if ()
+		if (NumElements + 1 < Capacity)
+			Data[NumElements + 1] = Item;
+		else
 		{
+			DATA* Tmp = data;
 
+			Data = new DATA[Capacity + MEMORY_DYNARRAY];
+			memcpy(Data, Tmp, NumElements*sizeof(DATA));
+
+			Data[NumElements + 1] = Item;
 		}
-	}*/
-	 
-	//MEMCPY; MEMSET;... STUDY IT
-
-	/*HOMEWORK FOR MONDAY:
-	at, capacity, size, clear, ctr(? ) i empty*/
-	//To do: AT & CTR
-	bool At(uint position, DATA &item) //Et diu què hi ha en una posició concreta
-	{
+		num_elements++;
+	}
 	
+
+	//Popback HAZLO JAVI!
+	DATA At(uint Position) const
+	{
+		if (Position <= NumElements)
+			return Data[Position];
+		else
+			return 0;
 	}
 
 	uint GetCapacity() const
@@ -73,7 +80,7 @@ public:
 		return NumElements;
 	}
 
-	bool CheckEmpty() const //Check if NumElements is empty
+	bool CheckEmpty() const
 	{
 		return (NumElements == NULL);
 	
@@ -83,8 +90,6 @@ public:
 	{
 		NumElements = 0;
 	}
-
-
 };
 
-#endif //__DYNAMYCARRAY_H__
+#endif //__DYNAMICARRAY_H__
